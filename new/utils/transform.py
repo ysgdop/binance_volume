@@ -3,8 +3,8 @@ import duckdb
 import pandas as pd
 
 # ========== 修改这里 ==========
-db_path = r"C:\C++  Project\py\Binance_data.duckdb"   # 你的 .duckdb 文件路径
-excel_path = r"C:\C++  Project\py\Binance_data.xlsx"        # 输出的 Excel 路径
+db_path = r".\Binance_data.duckdb"   # 你的 .duckdb 文件路径
+excel_path = r".\Binance_data.xlsx"        # 输出的 Excel 路径
 # =============================
 
 con = duckdb.connect(db_path, read_only=True)
